@@ -72,5 +72,5 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
  */
 // import 'intl/locale-data/jsonp/en';
 
-import '@webcomponents/custom-elements';
-import '@webcomponents/custom-elements/src/native-shim';
+import 'script-loader!@webcomponents/custom-elements';
+import 'script-loader!@webcomponents/custom-elements/src/native-shim';
